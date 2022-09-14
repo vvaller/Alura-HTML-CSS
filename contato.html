@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contato - Valler Decorações</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="caixa">
+            <h1><a href="index.html"><img src="logo.png" alt="Logo Valler Decoracoes"></a></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form class="formulariocontato">
+            <label for="nomesobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(00) 00000-0000">
+
+            <label for="mensagem-contato">Mensagem</label>
+            <textarea id="mensagem-contato" rows="6" cols="70" class="input-padrao"></textarea>
+
+            <fieldset class="radio-contato">
+                <legend>Como prefere nosso contato?</legend>
+
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">
+                    Email</label>
+
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">
+                    Telefone</label>
+
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"
+                        checked>
+                    WhatsApp</label>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend class="input-block">Qual horário prefere ser atendido?</legend>
+
+                <select class="input-block">
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+
+            </fieldset>
+
+            <label class="checkbox"><input type="checkbox" class="input-inline">Gostaria de receber novidades por
+                E-mail?</label>
+
+            <input class="botao-envio" type="submit" value="Enviar Formulário">
+        </form>
+
+        <fieldset>
+            <legend class="input-block">Horários de atendimento</legend>
+            <table class="tabela-horarios">
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda a Sexta</td>
+                        <td>9:00 a 12:00 - 13:00 a 18:00</td>
+                    </tr>
+                    <tr>
+                        <td>Sábado</td>
+                        <td>9:00 a 12:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+    </main>
+
+    <footer class="rodape">
+        <img src="logorodape.jpg" alt="Logo Valler Decoracoes">
+        <p>&copy; Copyright Valler Decorações - 2022.</br>Telefone: (47) 99999-9999.</br>Jaragua do sul - Santa
+            Catarina.</p>
+    </footer>1
+
+</body>
+
+</html>

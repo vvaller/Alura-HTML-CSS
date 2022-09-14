@@ -1,54 +1,250 @@
-.titulo-principal {
-    padding-left: 15px;
-}
+ /* CSS do cabeçalho e rodapé */
+ .cabecalho {
+    background: rgb(222, 222, 220);
+    padding: 20px 0;
+ }
 
-#banner {
+ .caixa {
+    width: 1280px;
+    position: relative;
+    margin: 0 auto;
+
+ }
+
+ nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+ }
+
+ nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+ }
+
+ nav a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    color: #000000;
+ }
+
+ nav a:hover {
+    color: #4444AA;
+    text-decoration: underline;
+ }
+
+ .rodape {
+    text-align: center;
+    background-color: rgb(222, 222, 220);
+    padding: 30px;
+ }
+
+ .rodape img {
+    height: 150px;
+    width: 150px;
+ }
+
+ .rodape p {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 25px;
+    
+ }
+
+ main {
+    width: 1280px;
+    margin: 0 auto;
+ }
+
+ /* CSS da página inicial */
+
+ .banner {
     height: 500px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-}
+    width: 100%;
+ }
 
-.titulo-centralizado {
+ .titulo-principal {
     text-align: center;
-}
+    font-size: 2em;
+    margin: 1em 0 1em;
+    font-weight: bold;
+ }
 
-.principal {
-    background: rgb(227, 245, 255);
-    padding: 15px;
-}
+ .conteudo-principal p {
+   margin: 0 0 1em;
+   text-align: center;
+   font-size: 20px;
+ }
 
-p {
-    text-align: center;
-}
+ .conteudo-principal strong {
+   font-weight: bold;
+   color: #07e49a;
+ }
 
-#missao {
-    font-size: 20px;
-}
+ .conteudo-principal em {
+   font-style: italic;
+ }
 
-.destaque-paragrafo {
-    background: #FFFFFF;
-    padding: 10px;
-}
-
-em strong {
-    color: rgb(1, 159, 255);
-}
-
-ul {
+ .imagem-beneficios {
+   height: 600px;
     display: inline-block;
+ }
+
+ .lista-inicial ul {
+   display: inline-block;
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
     margin-left: 200px;
-}
+ }
 
-.itens-lista {
-    font-style: italic;
-}
+ /* CSS da página de produtos*/
 
-.imagem {
-    height: 600px;
+ .imagens-produto {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 10px;
+ }
+
+ .lista-produtos {
+    width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 100px;
+ }
+
+ .lista-produtos li {
     display: inline-block;
-}
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+ }
+
+ .lista-produtos li:hover {
+    border-color: #07e49a;
+ }
+
+ .lista-produtos li:hover h2 {
+    font-size: 40px;
+ }
+
+ .lista-produtos li:hover p {
+    font-size: 25px;
+ }
+
+ .lista-produtos li:hover img {
+    height: 350px;
+    width: 350px;
+ }
+
+ .lista-produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+ }
+
+ .lista-produtos p {
+    font-size: 18px;
+    font-style: italic;
+    display: inline;
+ }
+
+ /* CSS da página de contato */
+
+ .formulariocontato {
+    margin: 40px 0;
+ }
+
+ .formulariocontato label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+ }
+
+ .input-padrao {
+    display: inline;
+    margin: 0 0 20px;
+    padding: 8px 20px;
+    width: 50%;
+ }
+
+ .input-inline {
+    display: inline;
+    font-size: 20px;
+    margin-bottom: 15px;
+ }
+
+ .input-block {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 15px;
+ }
+
+ .mensagem-contato {
+    width: 50%;
+    height: 80px;
+ }
+
+ .radio-contato legend {
+    font-size: 20px;
+    margin-bottom: 15px;
+
+ }
+
+ .input-inline {
+    display: inline;
+ }
+
+ .checkbox input {
+    margin: 20px 10px 0 0;
+ }
+
+ .botao-envio {
+    width: 30%;
+    padding: 10px;
+    background-color: rgb(70, 110, 180);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    transition: 0.5s background;
+ }
+
+ .botao-envio:hover {
+    background-color: rgb(32, 85, 121);
+ }
+
+ .tabela-horarios {
+    text-align: center;
+    margin: 10px 0 40px;
+    line-height: 20px;
+ }
+
+ .tabela-horarios thead {
+    background-color: #CCCCCC;
+    color: #000000;
+    font-weight: bold;
+    border: 1px solid #000000;
+ }
+
+ .tabela-horarios td {
+    border: 1px solid #000000;
+    padding: 5px;
+ }
+
+ .tabela-horarios th {
+    border: 1px solid #000000;
+ }

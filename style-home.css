@@ -1,0 +1,54 @@
+.titulo-principal {
+    padding-left: 15px;
+}
+
+#banner {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.titulo-centralizado {
+    text-align: center;
+}
+
+.principal {
+    background: rgb(227, 245, 255);
+    padding: 15px;
+}
+
+p {
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+.destaque-paragrafo {
+    background: #FFFFFF;
+    padding: 10px;
+}
+
+em strong {
+    color: rgb(1, 159, 255);
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    margin-left: 200px;
+}
+
+.itens-lista {
+    font-style: italic;
+}
+
+.imagem {
+    height: 600px;
+    display: inline-block;
+}
